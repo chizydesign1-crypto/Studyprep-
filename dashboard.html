@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard | StudyPrep</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <h2>StudyPrep</h2>
+
+            <nav>
+                <a href="#" class="active">Dashboard</a>
+                <a href="#">My Subjects</a>
+                <a href="#">My Learning</a>
+                <a href="#">Practice Questions</a>
+                <a href="#">Examination Prep</a>
+                <a href="#">My Progress</a>
+                <a href="#">My Profile</a>
+            </nav>
+
+            <button class="logout-btn">Logout</button>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+
+        <main class="dashboard-content">
+
+            <!-- TOP BAR -->
+
+            <header class="dashboard-header">
+
+                <div>
+                    <h1>Student Dashboard</h1>
+                    <p>Welcome to your learning space.</p>
+                </div>
+
+                <div class="student-profile">
+                    👤
+                </div>
+
+            </header>
+
+<!-- STUDENT AVATAR SELECTION -->
+
+<section class="avatar-section">
+
+    <h2>Choose Your Avatar</h2>
+
+    <p>Select a character to represent you on StudyPrep.</p>
+
+    <div class="avatar-gallery">
+
+        <button class="avatar-option" data-avatar="👩🏽‍🎓">
+            👩🏽‍🎓
+        </button>
+
+        <button class="avatar-option" data-avatar="👨🏽‍🎓">
+            👨🏽‍🎓
+        </button>
+
+        <button class="avatar-option" data-avatar="👩🏻‍🎓">
+            👩🏻‍🎓
+        </button>
+
+        <button class="avatar-option" data-avatar="👨🏻‍🎓">
+            👨🏻‍🎓
+        </button>
+
+        <button class="avatar-option" data-avatar="👩🏿‍🎓">
+            👩🏿‍🎓
+        </button>
+
+        <button class="avatar-option" data-avatar="👨🏿‍🎓">
+            👨🏿‍🎓
+        </button>
+
+        <button class="avatar-option" data-avatar="🧑🏽‍🎓">
+            🧑🏽‍🎓
+        </button>
+
+        <button class="avatar-option" data-avatar="🧑🏻‍🎓">
+            🧑🏻‍🎓
+        </button>
+
+    </div>
+
+    <p id="avatarMessage">Choose your favourite avatar.</p>
+
+</section>
+
+
+            <!-- WELCOME SECTION -->
+
+            <section class="welcome-section">
+
+                <h2>Welcome, Student!</h2>
+
+                <p>
+                    Your journey towards academic excellence
+                    starts here. Keep learning and keep growing.
+                </p>
+
+            </section>
+
+
+<!-- STUDENT INFORMATION -->
+
+<section class="student-info">
+
+    <h2>My Academic Information</h2>
+
+    <p>Full Name: <span id="displayName">Loading...</span></p>
+
+    <p>Email: <span id="displayEmail">Loading...</span></p>
+
+    <p>Class: <span id="displayClass">Loading...</span></p>
+
+    <p>Department: <span id="displayDepartment">Loading...</span></p>
+
+    <p>Examination: <span id="displayExams">Loading...</span></p>
+
+    <h3>My Selected Subjects</h3>
+
+    <div id="displaySubjects">
+        Loading subjects...
+    </div>
+
+</section>
+
+            <!-- DASHBOARD CARDS -->
+
+            <section class="dashboard-cards">
+
+                <div class="dashboard-card">
+                    <h3>My Subjects</h3>
+                    <p>Access your selected subjects and lessons.</p>
+                    <button>View Subjects</button>
+                </div>
+
+                <div class="dashboard-card">
+                    <h3>My Learning</h3>
+                    <p>Continue learning and exploring new topics.</p>
+                    <button>Start Learning</button>
+                </div>
+
+                <div class="dashboard-card">
+                    <h3>Practice Questions</h3>
+                    <p>Test your knowledge with practice questions.</p>
+                    <button>Start Practice</button>
+                </div>
+
+                <div class="dashboard-card">
+                    <h3>My Progress</h3>
+                    <p>Monitor your academic improvement.</p>
+                    <button>View Progress</button>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
