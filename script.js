@@ -12,19 +12,17 @@ try {
     localStorage.removeItem("storageTest");
     storageAvailable = true;
 } catch (error) {
-    console.log("Storage is unavailable in this browser.");
-}
-
+    console.log("Storage is unavailable in this browser.")
+    }
 // 1. Display a welcome message
 const getStartedButton = document.querySelector(".signup-btn");
 
 if (getStartedButton) {
-    getStartedButton.addEventListener("click", function(event) {
-        event.preventDefault();
+    getStartedButton.addEventListener("click", function() {
         alert("Welcome to StudyPrep! Your learning journey starts here.");
     });
 }
-
+    
 // 2. Toggle password visibility
 function togglePassword(inputId, button) {
     const passwordInput = document.getElementById(inputId);
@@ -342,4 +340,4 @@ if (displayName && storageAvailable) {
 
     }
 
-}
+    }
